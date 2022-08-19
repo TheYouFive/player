@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Yantramanav:wght@300;400;500;700;900&display=swap");
+
+@import "./player-first.css";
+@import "./player-second.css";
+@import "./footer.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Yantramanav", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+main {
+  display: flex;
+}
